@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1> Pizza Menu: </h1>
+
+  <form>
+  <input type="radio" id="small" name="Size" value="8">
+  <label for="small">Small</label><br>
+  <input type="radio" id="medium" name="Size" value="10">
+  <label for="medium">Medium</label><br>
+  <input type="radio" id="large" name="Size" value="14">
+  <label for="large">Large</label><br>
+  <br>
+  <label for="toppings">Choose how many Toppings:</label><br>
+  <select id="toppings">
+    <option value="0">No Toppings</option>
+    <option value="2">1 Topping</option>
+    <option value="3">2 Toppings</option>
+  </select>
+  <br>
+  <br>
+  <button type="button" onclick="DisplayPrice();">
+    Submit
+  </button>
+  <div id="result"></div>
+</form>
+
+
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
